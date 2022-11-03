@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8de7019d-e2bb-4d1b-9272-623980507709" name="Default Changelist" comment="" />
+    <list default="true" id="8de7019d-e2bb-4d1b-9272-623980507709" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin-views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin-views/auth/login.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -285,7 +289,8 @@
       <workItem from="1630593998936" duration="7885000" />
       <workItem from="1630742509256" duration="11000" />
       <workItem from="1630746551123" duration="2315000" />
-      <workItem from="1667432149983" duration="1514000" />
+      <workItem from="1667432149983" duration="1671000" />
+      <workItem from="1667438181465" duration="29000" />
     </task>
     <servers />
   </component>
@@ -306,5 +311,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2540" y="260" key="FileChooserDialogImpl" timestamp="1667436390545">
+      <screen x="1920" y="0" width="1680" height="1010" />
+    </state>
+    <state x="2540" y="260" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@1920.0.1680.1010" timestamp="1667436390545" />
   </component>
 </project>

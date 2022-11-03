@@ -103,21 +103,21 @@
                     <!-- End Checkbox -->
 
                     {{-- recaptcha --}}
-                    @php($recaptcha = \App\CentralLogics\Helpers::get_business_settings('recaptcha'))
-                    @if(isset($recaptcha) && $recaptcha['status'] == 1)
-                        <div id="recaptcha_element" class="w-100" data-type="image"></div>
-                        <br/>
-                    @else
-                        <div class="row p-2">
-                            <div class="col-6 pr-0">
-                                <input type="text" class="form-control form-control-lg border-0" name="custome_recaptcha"
-                                        id="custome_recaptcha" required placeholder="{{\translate('Enter recaptcha value')}}" autocomplete="off" value="{{env('APP_MODE')=='dev'? session('six_captcha'):''}}">
-                            </div>
-                            <div class="col-6 bg-white rounded">
-                                <img src="<?php echo $custome_recaptcha->inline(); ?>" class="rounded w-100" />
-                            </div>
-                        </div>
-                    @endif
+{{--                    @php($recaptcha = \App\CentralLogics\Helpers::get_business_settings('recaptcha'))--}}
+{{--                    @if(isset($recaptcha) && $recaptcha['status'] == 1)--}}
+{{--                        <div id="recaptcha_element" class="w-100" data-type="image"></div>--}}
+{{--                        <br/>--}}
+{{--                    @else--}}
+{{--                        <div class="row p-2">--}}
+{{--                            <div class="col-6 pr-0">--}}
+{{--                                <input type="text" class="form-control form-control-lg border-0" name="custome_recaptcha"--}}
+{{--                                        id="custome_recaptcha" required placeholder="{{\translate('Enter recaptcha value')}}" autocomplete="off" value="{{env('APP_MODE')=='dev'? session('six_captcha'):''}}">--}}
+{{--                            </div>--}}
+{{--                            <div class="col-6 bg-white rounded">--}}
+{{--                                <img src="<?php echo $custome_recaptcha->inline(); ?>" class="rounded w-100" />--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    @endif--}}
 
                     <button type="submit" class="btn btn-lg btn-block btn--primary mt-xxl-3">{{translate('messages.login')}}</button>
                 </form>
